@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style type="text/css">
+        *{user-select:none;margin:0;padding:0;box-sizing:border-box;outline:none;user-select:none;}
+        body{background:rgb(255, 255, 255);}
+        div .poster{overflow-x:scroll;overflow-y:hidden;white-space:nowrap;margin:3px;}
+        #xs-header{background:rgb(255, 0, 0);left: 0;position: fixed;top:0px;width: 100%;z-index: 90;height: 8%;}
+        footer{background:rgb(255, 251, 0);display:flex;width:100%;bottom:0;justify-content:space-around;align-items:center;padding:6px 2px;position:fixed;left:0;right:0px;color:#fff;}
+        footer div{font-size:10px;text-align:center;justify-content:center;align-items:center;}
+        footer i{padding-left:0px;}
+        /*footer end*/
+        footer img{height:20px;width:20px;margin-bottom:3px;}
+        footer svg{height:20px;width:20px;margin-bottom:3px;}
+        footer span{transform:scale(1);}
+        #s-f{margin-bottom:40px;}
+        .slider {width: 100%;margin: auto;overflow: hidden;}
+        .slider ul {display: flex;padding: 0;width: 400%;animation: cambio 20s infinite alternate linear;}
+        .slider li {width: 100%;list-style: none;}
+        .slider img {width: 2010px; height: 600px;}
+        @keyframes cambio {
+        0% {margin-left: 20;}
+        20% {margin-left: 0;}
+        25% {margin-left: -120%;}
+        45% {margin-left: -100%;}
+        50% {margin-left: -220%;}
+        70% {margin-left: -200%;}
+        75% {margin-left: -320%;}
+        100% {margin-left: -300%;}}
+        
+        
+        </style>
+        </head>
+        <body>
+            <div id="xs-header">
+                <center><h1 style="color:rgb(0, 0, 0);font-size:35px;">El Palacio<strong style="color:#2bff00;">Del Sabor</strong></h1></center>
+                </div></div><br>
+                <div class="slider">
+                    <ul>
+                    <li><a href="#">
+                    <img src="https://media.revistagq.com/photos/61289c0f8a49f53b4b9cfe3d/master/pass/ice-road.jpg" alt=""></li></a>
+                    <li><a href="#">
+                    <img src="https://i.ytimg.com/vi/q9EVIDLPP1A/maxresdefault.jpg" alt=""></li></a>
+                    <li><a href="#">
+                    <img src="https://media.gq.com.mx/photos/5cd71bf64dc0880f2d9adf10/16:9/w_1280,c_limit/Black%20Panther.jpg" alt=""></li></a>
+                    <li><a href="#">
+                    <img src="https://as01.epimg.net/meristation/imagenes/2021/06/02/reportajes/1622599563_307014_1622600881_noticia_normal.jpg" alt=""></li></a>
+                    </ul>
+                </div>
+
+</body>
+</html>
